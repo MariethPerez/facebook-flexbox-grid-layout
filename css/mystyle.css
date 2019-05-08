@@ -29,17 +29,13 @@ body {
 }
 
 .options .item {
-  flex: 1 0 20%;
+  flex: 1 0 10%;
   box-sizing: border-box;
-  background: #e0ddf8;
-  color: #171e42;
-  padding: 10px;
+  padding: 12px;
 }
 .options .item-is-active {
-  flex: 1 0 20%;
+  flex: 1 0 10%;
   box-sizing: border-box;
-  background: #e0ddf8;
-  color: blue;
   padding: 10px;
 }
 .settings {

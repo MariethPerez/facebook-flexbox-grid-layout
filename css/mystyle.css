@@ -68,7 +68,7 @@ li {
   height: "3px";
 }
 
-.fa {
+.fab {
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -78,6 +78,6 @@ li {
 }
 
 .fa-facebook {
-  background: #3b5998;
-  color: white;
+  background: white;
+  color: #3b5998;
 }

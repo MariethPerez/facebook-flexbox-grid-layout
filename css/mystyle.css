@@ -61,6 +61,8 @@ body {
 
 .contact_title {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 li {
@@ -80,4 +82,22 @@ li {
 .fa-facebook {
   background: #3b5998;
   color: white;
+}
+
+.image_size {
+  width: 20px;
+}
+
+.list_contacts ul {
+  list-style-type: none;
+}
+
+.home-create {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.list-from-home ul {
+  list-style-type: none;
 }

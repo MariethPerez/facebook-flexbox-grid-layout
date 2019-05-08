@@ -4,6 +4,7 @@ body {
   grid-template-rows: 60px 1fr;
   margin: 0;
   height: 100vh;
+  font-family: "Hind", sans-serif;
 }
 
 .header {
@@ -25,7 +26,6 @@ body {
 
 .options {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -67,6 +67,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 1px;
+  align-items: center;
 }
 
 li {
@@ -104,18 +106,25 @@ li {
 .fa-users {
   background: white;
   color: black;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%;
+  padding: 4% 4% 4% 4%;
 }
 .fa-facebook-messenger {
   background: white;
   color: black;
 }
 .fa-cog {
-  background: #e7e4e3;
+  background: #f1f0ef;
   color: black;
   text-align: center;
   border-width: 1px;
   border-style: solid;
-  border-color: #e7e4e3;
+  border-color: #f1f0ef;
   border-image: initial;
   border-radius: 50% 50% 50% 50%;
   padding: 3% 3% 3% 3%;
@@ -139,6 +148,10 @@ li {
   list-style-type: none;
 }
 
+.display_scroll {
+  background: #f1f0ef;
+}
+
 .search-bar {
   background: url("image-src") no-repeat;
   border-radius: 15px;
@@ -148,6 +161,11 @@ li {
 }
 
 h5 {
+  padding: 10px;
+  margin: 0;
+}
+
+.image_friend {
   padding: 10px;
 }
 

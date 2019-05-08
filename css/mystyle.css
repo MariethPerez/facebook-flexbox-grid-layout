@@ -11,6 +11,8 @@ body {
   grid-row: 1/2;
   grid-column: 1/2;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-home {
@@ -48,7 +50,7 @@ body {
 .group_contacts {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 140px 50px 1fr;
+  grid-template-rows: 140px 60px 1fr;
   margin: 0;
   height: 100vh;
 }
@@ -85,7 +87,7 @@ li {
 }
 
 .image_size {
-  width: 20px;
+  width: 10px;
 }
 
 .list_contacts ul {
@@ -100,4 +102,15 @@ li {
 
 .list-from-home ul {
   list-style-type: none;
+}
+
+#search-bar {
+  background: url("image-src") no-repeat;
+  height: 20px;
+  width: 190px;
+  padding: 5px;
+}
+
+h5 {
+  padding: 10px;
 }
